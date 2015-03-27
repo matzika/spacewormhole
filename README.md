@@ -1,4 +1,4 @@
-# spacewormhole
+# Space Wormhole
 A  3D space wormhole implemented in OpenGL 
 
 
@@ -15,12 +15,12 @@ When a particle is detached from its original source and added to the black hole
 The Camera class represents the view in the program. It contains the methods that define what the user can see in the screen and how he/she can interact with the environment.
 Lastly, the Wormhole class is the main class of the program. It creates the screen and initializes openGL matrices and states. Then, it creates the three sources, the particles ‘generator’ sources and the ‘black hole’ source, in standard positions. The class repetitively updates the three sources based on current information and input, and draws them on the screen. Finally, the class contains an input method to receive input from keyboard or mouse.
 
-How to run
-We have created a wormhole_simulation.jar that contains all the native libraries that are necessary for the program to run. No additional libraries except for lwjgl were used. To run simply go to the ‘Executables’ folder, and select the folder with the OS you are using. Each folder contains a separate jar file that contains the native libraries that correspond to each OS system.
-To run simply write inside the terminal, while you are in the correct OS folder, the following command:
-            java –jar wormhole_simulation.jar
+#How to run
+
+We have created a wormhole_simulation.jar that contains all the native libraries that are necessary for the program to run. No additional libraries except for lwjgl were used. To run you should link the build path with the native library of your OS. All native libraries for each OS are included in the lwjgl folder.  
 ￼￼
-How to play with it
+#How to play with it
+
 You as a user can interact with the program! The main way to do so is the keyboard, but you could also click with the mouse on a ‘generator’ source to see the particles disappear and then appear back again, as soon as you release the mouse button.
 To Navigate inside the Universe:
 Use the arrow buttons. The move at the moment is restricted on the y-axis so there is no complete freedom of movement, however, it possible to move next to the sources, zoom in or zoom out. This movement wasn’t developed further on the other two axes, because it wasn’t one of the primary goals of this project, but was added more for the user’s convenience.
