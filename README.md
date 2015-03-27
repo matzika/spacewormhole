@@ -38,4 +38,6 @@ To Increase the Speed of the Particles in the “generator” Sources:
  
  -> For both sources at once: Press ‘U’ key to increase the speed and ‘D’ key to decrease it.
  
+ Here is a short demo to check out the simulation: https://www.youtube.com/watch?v=ZwkQmab37AU
+ 
 Enjoy!
