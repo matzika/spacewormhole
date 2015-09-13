@@ -40,4 +40,6 @@ To Increase the Speed of the Particles in the “generator” Sources:
  
  Here is a short demo to check out the simulation: https://www.youtube.com/watch?v=ZwkQmab37AU
  
+ ![Simulation of wormhole](/images/wormhole.png)
+ 
 Enjoy!
